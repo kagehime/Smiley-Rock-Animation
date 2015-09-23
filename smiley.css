@@ -1,0 +1,124 @@
+html, body
+{
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+
+
+#wrapper {
+	width: 950px;
+	height: 450px;
+	margin: 0 auto;
+}
+
+h1{
+	text-align: center;
+}
+
+#irock {
+	width: 300px;
+	height: 300px;
+	margin: 30px;
+	display: inline-block;
+	position: relative;
+	border-radius:  102px 120px  75px 170px;
+	-webkit-border-radius:  102px 120px 75px 170px;
+	-moz-border-radius:  102px 120px  75px 170px;
+	display: inline-block;
+	background: #989898;
+	background: -webkit-gradient(radial, left top, left bottom, from(#989898), to(#404040));
+	background: -moz-radial-gradient(top,  #989898,  #404040);	
+	box-shadow: inset 0px -14px 30px rgba(0, 0, 0, .3), 0px 2px 20px rgba(0, 0, 0, .6);
+	-webkit-box-shadow: inset 0px -14px 30px rgba(0, 0, 0, .3), 0px 2px 20px rgba(0, 0, 0, .6);
+	-moz-box-shadow: inset 0px -14px 30px rgba(0, 0, 0, .3), 0px 2px 20px rgba(0, 0, 0, .6);
+	}
+	
+p.eyes {
+	width: 65px;
+	height: 65px;
+	background: #fff;
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	position: absolute;
+	top: 55px;
+	//box-shadow: 0 2px 0 rgba(255,255,255, 0.8);
+	//-webkit-box-shadow: 0 2px 0 rgba(255,255,255, 0.8);
+	//-moz-box-shadow: 0 2px 0 rgba(255,255,255, 0.8);
+	}	
+	
+	p.eyes.lefteye {
+		left: 60px;
+		}
+		
+	p.eyes.righteye {
+		right: 60px;
+		}
+
+		p.little {
+			width: 25px;
+			height: 25px;
+			background: #000;
+			border-radius: 50%;
+			-webkit-border-radius: 50%;
+			-moz-border-radius: 50%;
+		}
+
+			p.eyes.lefteye.little{
+				top: 76px;
+				left: 80px;
+			}
+
+			p.eyes.righteye.little{
+				top: 76px;
+				right: 80px;
+
+			}
+
+.straightface{
+	position: absolute;
+	bottom: 90px;
+	left: 70px;
+	width: 145px;
+	border: solid 3px;
+}
+	
+.smile {
+	width: 150px;
+	height: 60px;
+	border: 10px solid #222;
+	border-top: 0;
+	background: rgba(0,0,0,0);
+	-moz-border-radius: 0 0 120px 120px / 0 0 90px 90px;
+	-webkit-border-radius: 0 0 120px 120px 0 0 90px 90px;
+	border-radius: 0 0 120px 120px / 0 0 90px 90px;
+	position: absolute;
+	bottom: 50px;
+	left: 60px;
+	display: none;
+}
+
+.sad {
+	width: 150px;
+	height: 60px;
+	border: 10px solid #222;
+	border-top: 0;
+	background: rgba(0,0,0,0);
+	-moz-border-radius: 120px 120px 0 0 / 90px 90px 0 0;
+	-webkit-border-radius: 120px 120px 0 0  90px 90px 0 0;
+	border-radius: 120px 120px 0 0 / 90px 90px 0 0;
+	position: absolute;
+	bottom: 50px;
+	left: 60px;
+	display: none;
+
+}
+
+
+
+
+.color{
+	background-color: gray;
+}
+
